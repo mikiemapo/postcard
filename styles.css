@@ -2,7 +2,6 @@ body {
 	background: black;
 }
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 .postcard {
@@ -37,6 +36,13 @@ body {
 .body-left,
 .body-right {
 	padding: 3px;
+}
+.body-left {
+	width: 60%;
+	font-size: large;
+}
+.body-right {
+	width: 40%;
 }
 input {
 	border: none;
